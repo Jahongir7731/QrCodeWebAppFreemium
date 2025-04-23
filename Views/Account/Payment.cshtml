@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h2>QR Code Limit Reached</h2>
+<p>You have reached your free limit for today. Please make a payment to generate more QR codes.</p>
+<form method="post" asp-action="ProcessPayment">
+    <button type="submit">Make Payment</button>
+</form>
